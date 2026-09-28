@@ -404,7 +404,7 @@ body {
 .journey__prints { color: rgba(74,114,69,.7); letter-spacing:.3rem; font-size:.7rem; white-space: nowrap; overflow: hidden; }
 .horse-runner {
   position: fixed;
-  left: 4vw; bottom: 2rem; width: clamp(130px, 16vw, 220px); z-index: 11;
+  left: 4vw; bottom: 2.4rem; width: clamp(130px, 16vw, 220px); z-index: 11;
   transition: left .55s cubic-bezier(.2,.7,.2,1), transform .55s cubic-bezier(.2,.7,.2,1);
   will-change: left, transform;
   pointer-events:none;
