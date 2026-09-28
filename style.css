@@ -409,7 +409,7 @@ body {
   will-change: left, transform;
   pointer-events:none;
 }
-.horse-runner img { width: 50%; display:block; filter: drop-shadow(0 18px 18px rgba(36,67,36,.14)); }
+.horse-runner img { width: 20%; display:block; filter: drop-shadow(0 18px 18px rgba(36,67,36,.14)); }
 .horse-runner.gallop { animation: leap .65s ease; }
 @keyframes leap {
   0% { transform: translateY(0) rotate(0deg); }
