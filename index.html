@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#7fb96e" />
+  <meta name="description" content="PLS210 Presentation #1 — Drawing the Line" />
+  <title>Drawing the Line — PLS210 Presentation #1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#deck">Skip to presentation</a>
+
+  <div class="world" aria-hidden="true">
+    <div class="world__sky"></div>
+    <div class="world__sun"></div>
+    <div class="world__cloud world__cloud--1"></div>
+    <div class="world__cloud world__cloud--2"></div>
+    <div class="world__mountain world__mountain--1"></div>
+    <div class="world__mountain world__mountain--2"></div>
+    <div class="world__hill world__hill--1"></div>
+    <div class="world__hill world__hill--2"></div>
+    <div class="world__river"></div>
+    <div class="world__path"></div>
+    <div class="world__grass world__grass--1"></div>
+    <div class="world__grass world__grass--2"></div>
+  </div>
+
+  <main id="deck" class="deck" aria-live="polite">
+    <section class="slide slide--hero is-active" data-title="Where do we draw the line?" aria-label="Slide 1 of 19">
+      <div class="slide__inner slide__inner--centered">
+        <p class="eyebrow">PLS210 PRESENTATION #1 · INTERPRETIVIST RESEARCH DESIGN</p>
+        <h1 class="display display--xl">Where do we draw the line?</h1>
+        <p class="lede">Where does demanding horse sport end and unacceptable treatment begin?</p>
+
+        <div class="hook-card">
+          <p class="micro micro--strong">Move the marker if you want — there is no “correct” answer.</p>
+          <div class="hook-scale" aria-label="Interactive boundary prompt">
+            <span>Demanding sport</span>
+            <input id="boundaryRange" type="range" min="0" max="100" value="50" aria-label="Move a marker between demanding sport and unacceptable treatment" />
+            <span>Unacceptable treatment</span>
+          </div>
+          <p id="boundaryNote" class="micro">My study is not trying to decide the right answer in advance. It asks how people justify where they place the line.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Drawing the Line" aria-label="Slide 2 of 19">
+      <div class="slide__inner slide__inner--centered title-screen">
+        <p class="eyebrow">HORSES · SPORT · TRADITION · MEANING</p>
+        <h2 class="display display--xl">Drawing the Line</h2>
+        <p class="subtitle">How social-media users negotiate harm, cruelty, and tradition around horse treatment at the World Nomad Games</p>
+        <div class="title-chip">VI World Nomad Games · Kyrgyzstan · 2026</div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="The journey" aria-label="Slide 3 of 19">
+      <div class="slide__inner slide__inner--wide">
+        <p class="eyebrow">THE JOURNEY</p>
+        <h2 class="display">How the presentation moves</h2>
+        <div class="journey-map">
+          <div class="journey-step">Puzzle</div>
+          <div class="journey-step">Question</div>
+          <div class="journey-step">Interpretivism</div>
+          <div class="journey-step">Literature</div>
+          <div class="journey-step">Framework</div>
+          <div class="journey-step">Expectations</div>
+          <div class="journey-step">Positionality</div>
+        </div>
+        <p class="micro center">The moving horse below acts as a visual guide through the argument.</p>
+      </div>
+    </section>
+
+    <section class="slide" data-title="One controversy, competing meanings" aria-label="Slide 4 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">THE PUZZLE</p>
+        <h2 class="display">One controversy, competing meanings</h2>
+        <p class="claim">The same controversy may be framed as <strong>legitimate sport</strong>, <strong>acceptable risk</strong>, <strong>tradition</strong>, <strong>mistreatment</strong>, or <strong>cruelty</strong>.</p>
+        <div class="split-cards">
+          <div class="card card--soft">
+            <span class="mini-label">ONE POSSIBILITY</span>
+            <p>Tradition may be invoked to defend the practice.</p>
+          </div>
+          <div class="card card--soft">
+            <span class="mini-label">ANOTHER POSSIBILITY</span>
+            <p>Tradition may also be invoked to say that “real” tradition requires respect for horses.</p>
+          </div>
+        </div>
+        <div class="synthesis">Puzzle: how do participants construct and contest the boundaries between these meanings?</div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Research question and scope" aria-label="Slide 5 of 19">
+      <div class="slide__inner slide__inner--wide">
+        <p class="eyebrow">RESEARCH QUESTION</p>
+        <h2 class="rq">How do social-media users <span>interpret</span> and <span>negotiate</span> meanings of harm, cruelty, and tradition in discussions of horse treatment at the World Nomad Games?</h2>
+        <div class="verb-grid">
+          <div class="verb-card">
+            <strong>INTERPRET</strong>
+            <span>an individual user assigns meaning to the horse treatment</span>
+          </div>
+          <div class="verb-card">
+            <strong>NEGOTIATE</strong>
+            <span>users defend, challenge, qualify, or reframe those meanings through interaction</span>
+          </div>
+        </div>
+        <div class="scope-box">
+          <div><span class="scope-label">CASE</span><strong>VI World Nomad Games, Kyrgyzstan (2026): the bloodied-horse kokpar controversy</strong></div>
+          <div><span class="scope-label">PLATFORM</span><strong>Threads, centered on the circulated post by Tilek Bekbolotov and its public discussion</strong></div>
+          <div><span class="scope-label">POPULATION</span><strong>users participating in selected public comment threads and reply chains about the controversy</strong></div>
+          <div><span class="scope-label">TIME</span><strong>7–14 September 2026 — a bounded analytical window around the controversy</strong></div>
+        </div>
+        <p class="micro">Interpretive, not representative: the project does not claim these users stand for Kazakhstan, Kyrgyzstan, Central Asia, or social-media users generally.</p>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Why interpretivism?" aria-label="Slide 6 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">WHY INTERPRETIVISM?</p>
+        <h2 class="display">What kind of question is this?</h2>
+        <div class="contrast-grid">
+          <div class="contrast-card contrast-card--muted">
+            <span class="contrast-label">I am not asking</span>
+            <p>“What percentage of users think this is cruel?”</p>
+          </div>
+          <div class="contrast-card contrast-card--accent">
+            <span class="contrast-label">I am asking</span>
+            <p>“What do cruelty, harm, sport, and tradition mean to the people discussing them?”</p>
+          </div>
+        </div>
+        <ul class="short-list">
+          <li>Meanings are contextual and can be contested.</li>
+          <li>I do not fix participants’ meanings completely in advance.</li>
+          <li>The researcher also interprets meaning, so reflexivity matters.</li>
+        </ul>
+        <div class="note-box">Studying interpretations of harm does <strong>not</strong> mean claiming physical suffering is unreal. It means veterinary assessment is not the question this study is designed to answer.</div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="A focused extension" aria-label="Slide 7 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">CONTRIBUTION</p>
+        <h2 class="display">A focused extension</h2>
+        <div class="already-adds">
+          <div class="card card--strong">
+            <span class="mini-label">ALREADY IN THE LITERATURE</span>
+            <p>Horse welfare and legitimate sporting practice can be socially contested.</p>
+            <p>Cheung, Mills &amp; Ventura (2026) already study social-media discourse around controversial horse treatment.</p>
+          </div>
+          <div class="card card--accent">
+            <span class="mini-label">MY CONTRIBUTION</span>
+            <p>I examine how welfare judgments become intertwined with <strong>tradition</strong>, <strong>authenticity</strong>, <strong>cultural legitimacy</strong>, and ideas of <strong>proper human–horse relations</strong> in discussion of the World Nomad Games.</p>
+          </div>
+        </div>
+        <div class="synthesis">So the project extends existing scholarship — it does not claim “nobody has studied this.”</div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Where does sport end and abuse begin?" aria-label="Slide 8 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">LITERATURE · CONVERSATION 1</p>
+        <h2 class="display">Where does sport end and abuse begin?</h2>
+        <div class="tension-axis">
+          <div>
+            <strong>legitimate sport</strong>
+            <span>accepted risk · performance · normal demand</span>
+          </div>
+          <div class="axis-line" aria-hidden="true"><i></i></div>
+          <div>
+            <strong>unacceptable treatment</strong>
+            <span>harm · cruelty · abuse</span>
+          </div>
+        </div>
+        <div class="paper-pair">
+          <div><b>Cheung, Mills &amp; Ventura (2026)</b><span>social-media discourse around high-profile horse-treatment incidents</span></div>
+          <div><b>Graham &amp; McManus (2016)</b><span>whip-use debates in horse racing: necessary tool versus cruelty</span></div>
+        </div>
+        <div class="synthesis">What this establishes: <strong>horse-welfare boundaries are socially contested.</strong></div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Can using horses and caring for them coexist?" aria-label="Slide 9 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">LITERATURE · CONVERSATION 2</p>
+        <h2 class="display">Can using horses and caring for them coexist?</h2>
+        <div class="balance-grid">
+          <div class="balance-card">
+            <span class="mini-label">RELATIONAL LANGUAGE</span>
+            <strong>care · partnership · attentiveness</strong>
+          </div>
+          <div class="balance-mark" aria-hidden="true">+</div>
+          <div class="balance-card">
+            <span class="mini-label">STRUCTURAL REALITY</span>
+            <strong>human use · control · unequal power</strong>
+          </div>
+        </div>
+        <div class="paper-pair">
+          <div><b>McManus &amp; Montoya (2012)</b><span>different human–horse relations shape how jumps racing is understood</span></div>
+          <div><b>Dashper (2017)</b><span>attentive partnership can coexist with human-centered power</span></div>
+        </div>
+        <div class="synthesis">My reading: <strong>sport and care are not necessarily understood as opposites.</strong></div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="What does tradition do?" aria-label="Slide 10 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">LITERATURE · CONVERSATION 3</p>
+        <h2 class="display">What does tradition do?</h2>
+        <div class="meaning-cloud" aria-label="Possible cultural meanings of horses">
+          <span>heritage</span>
+          <span>partnership</span>
+          <span>livelihood</span>
+          <span>sport</span>
+          <span>status</span>
+          <span>care</span>
+        </div>
+        <p class="claim claim--small">Culturally meaningful relationships with horses can contain different, even conflicting, ideas about proper treatment.</p>
+        <div class="paper-pair paper-pair--stack">
+          <div><b>Sturød, Helgadóttir &amp; Nordbø (2020)</b><span>the Kyrgyz horse is enacted through multiple meanings</span></div>
+          <div><b>Hausberger, Lesimple &amp; Henry (2021)</b><span>social and cultural norms can shape welfare interpretation</span></div>
+        </div>
+        <div class="synthesis">My reading: <strong>tradition is not one fixed justification; its meaning can itself become contested.</strong></div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Where the conversations meet" aria-label="Slide 11 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">WHAT REMAINS UNRESOLVED</p>
+        <h2 class="display">Where the conversations meet</h2>
+        <div class="three-streams">
+          <div><span>1</span><strong>Welfare boundaries</strong><small>are contested</small></div>
+          <div><span>2</span><strong>Care and use</strong><small>can coexist in complicated ways</small></div>
+          <div><span>3</span><strong>Tradition</strong><small>carries multiple meanings</small></div>
+        </div>
+        <div class="confluence" aria-hidden="true">↓</div>
+        <p class="big-question">How do users negotiate these layers together around a culturally symbolic sporting controversy?</p>
+        <div class="synthesis">This is where my study enters the conversation.</div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Sensitising concepts" aria-label="Slide 12 of 19">
+      <div class="slide__inner slide__inner--wide">
+        <p class="eyebrow">ANALYTICAL FRAMEWORK</p>
+        <h2 class="display">Sensitising concepts</h2>
+        <div class="concept-grid">
+          <div class="concept"><strong>Harm / cruelty</strong><span>When does perceived suffering become morally unacceptable?</span></div>
+          <div class="concept"><strong>Tradition / authenticity</strong><span>What counts as genuine or legitimate tradition?</span></div>
+          <div class="concept"><strong>Acceptable sporting risk</strong><span>What demands are considered normal parts of horse sport?</span></div>
+          <div class="concept"><strong>Care / respect</strong><span>What does proper treatment of a horse require?</span></div>
+        </div>
+        <div class="principle">They tell me <strong>where to look</strong> — not <strong>what I will find</strong>.</div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="An open meaning-map" aria-label="Slide 13 of 19">
+      <div class="slide__inner slide__inner--wide">
+        <p class="eyebrow">ANALYTICAL LENS</p>
+        <h2 class="display">What counts as acceptable horse treatment?</h2>
+        <div class="meaning-map">
+          <div class="meaning-map__center">acceptable<br/>horse treatment?</div>
+          <div class="meaning-map__node node-a">harm / cruelty</div>
+          <div class="meaning-map__node node-b">tradition / authenticity</div>
+          <div class="meaning-map__node node-c">sporting risk</div>
+          <div class="meaning-map__node node-d">care / respect</div>
+          <svg class="meaning-map__lines" viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M50 50 L20 25 M50 50 L80 25 M50 50 L20 80 M50 50 L80 80"></path>
+          </svg>
+        </div>
+        <p class="micro center open-note">Open by design: participants may introduce meanings I have not anticipated.</p>
+      </div>
+    </section>
+
+    <section class="slide" data-title="What I expect — and could be wrong about" aria-label="Slide 14 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">EXPECTATIONS · NOT FINDINGS</p>
+        <h2 class="display">What I expect — and could be wrong about</h2>
+        <div class="expectation-list">
+          <div>
+            <span>01</span>
+            <p><strong>Tradition may work in both directions.</strong><br/>It may defend the practice, or be invoked to demand respect for horses.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <p><strong>Harm and cruelty may not be identical.</strong><br/>Users may acknowledge injury or risk without calling it cruelty.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <p><strong>Authority to judge may emerge.</strong><br/>I will watch for disputes over whose knowledge or standing counts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Where I stand" aria-label="Slide 15 of 19">
+      <div class="slide__inner slide__inner--wide">
+        <p class="eyebrow">POSITIONALITY</p>
+        <h2 class="display">Where I stand</h2>
+        <div class="position-chain">
+          <div><span>WHERE I STAND</span><strong>I come from the region, and the footage initially concerned me.</strong></div>
+          <i>→</i>
+          <div><span>WHAT IT HELPS ME SEE</span><strong>Some cultural references and why the issue feels locally meaningful.</strong></div>
+          <i>→</i>
+          <div><span>WHAT IT MAY MAKE ME MISS</span><strong>I may notice cruelty framings faster than alternative interpretations.</strong></div>
+          <i>→</i>
+          <div><span>WHAT I WILL DO</span><strong>Actively attend to interpretations that challenge my first reaction.</strong></div>
+        </div>
+        <p class="micro center">Positionality is not a confession. It makes my interpretive position visible.</p>
+      </div>
+    </section>
+
+    <section class="slide" data-title="How AI and I worked together" aria-label="Slide 16 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">AI TRANSPARENCY</p>
+        <h2 class="display">How AI and I worked together</h2>
+        <div class="ai-grid">
+          <div>
+            <strong>AI helped me</strong>
+            <ul>
+              <li>pressure-test the research question</li>
+              <li>separate interpretation from negotiation</li>
+              <li>challenge a simple “tradition versus welfare” frame</li>
+            </ul>
+          </div>
+          <div>
+            <strong>Together we</strong>
+            <ul>
+              <li>grouped literature into conversations</li>
+              <li>narrowed the contribution after finding Cheung et al.</li>
+              <li>refined the sensitising concepts and empirical scope</li>
+            </ul>
+          </div>
+          <div>
+            <strong>I remained responsible for</strong>
+            <ul>
+              <li>the final research choices</li>
+              <li>checking the sources myself</li>
+              <li>the final argument and what I can defend orally</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Clearer now — still unresolved" aria-label="Slide 17 of 19">
+      <div class="slide__inner">
+        <p class="eyebrow">REQUIRED REFLECTION</p>
+        <h2 class="display">What working with AI clarified — and what remains unresolved</h2>
+        <div class="reflection-grid">
+          <div>
+            <span class="mini-label">CLEARER NOW</span>
+            <ul class="check-list">
+              <li>interpretation ≠ negotiation</li>
+              <li>sensitising concepts are lenses, not predetermined categories</li>
+              <li>interpretivism can have expectations without fixed hypotheses</li>
+            </ul>
+          </div>
+          <div>
+            <span class="mini-label">STILL UNRESOLVED</span>
+            <ul class="question-list">
+              <li>the final breadth of the sample</li>
+              <li>how to interpret multilingual comments without losing nuance</li>
+              <li>the final number and selection of discussion threads</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="The line is the object of study" aria-label="Slide 18 of 19">
+      <div class="slide__inner slide__inner--centered final-screen">
+        <p class="eyebrow">RETURN TO THE OPENING QUESTION</p>
+        <h2 class="display display--lg">The line is itself the object of study.</h2>
+        <p class="final-quote">The question is not only where <em>I</em> draw the line between sport, tradition, harm, and cruelty.</p>
+        <p class="final-quote final-quote--strong">It is how people debating the same controversy draw that line for themselves — and what they invoke to justify it.</p>
+        <p class="closing-line">That boundary-making is what this research seeks to understand.</p>
+      </div>
+    </section>
+
+    <section class="slide" data-title="References" aria-label="Slide 19 of 19">
+      <div class="slide__inner slide__inner--wide refs-slide">
+        <p class="eyebrow">REFERENCES</p>
+        <h2 class="display display--sm">Academic literature</h2>
+        <div class="refs-grid">
+          <div>
+            <p>Cheung, E., Mills, D., &amp; Ventura, B. A. (2026). “At what line does poor horsemanship cross the line to abuse, for you?” <em>Animal Welfare, 35</em>, e38. doi:10.1017/awf.2026.10093.</p>
+            <p>Graham, R., &amp; McManus, P. (2016). Changing human-animal relationships in sport: An analysis of the UK and Australian horse racing whips debates. <em>Animals, 6</em>(5), 32. doi:10.3390/ani6050032.</p>
+            <p>McManus, P., &amp; Montoya, D. (2012). Toward new understandings of human–animal relationships in sport: A study of Australian jumps racing. <em>Social &amp; Cultural Geography, 13</em>(4), 399–420. doi:10.1080/14649365.2012.688852.</p>
+            <p>Dashper, K. (2017). Listening to horses: Developing attentive interspecies relationships through sport and leisure. <em>Society &amp; Animals, 25</em>(3), 207–224. doi:10.1163/15685306-12341426.</p>
+          </div>
+          <div>
+            <p>Sturød, A. G., Helgadóttir, G., &amp; Nordbø, I. (2020). The Kyrgyz horse: Enactments and agencies in and beyond a tourism context. <em>Current Issues in Tourism, 23</em>(12), 1512–1527. doi:10.1080/13683500.2019.1626813.</p>
+            <p>Hausberger, M., Lesimple, C., &amp; Henry, S. (2021). Detecting welfare in a non-verbal species: Social/cultural biases and difficulties in horse welfare assessment. <em>Animals, 11</em>(8), 2249. doi:10.3390/ani11082249.</p>
+            <p>Schwartz-Shea, P., &amp; Yanow, D. (2012). <em>Interpretive Research Design: Concepts and Processes</em>. Routledge.</p>
+            <p>Farrow, R., Iniesto, F., Weller, M., &amp; Pitt, R. (2020). Positivism; Interpretivism. In <em>The Research Methods Handbook</em>. Open Education Research Hub (GO-GN).</p>
+          </div>
+        </div>
+        <h3 class="refs-subhead">Contextual / event sources</h3>
+        <p class="context-ref">Official VI World Nomad Games materials; Politico.kz (7 September 2026) on the circulated bloodied-horse video; Offside.kz reporting on criticism of the treatment; Tilek Bekbolotov’s Threads post and its public comment discussion.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="journey" aria-hidden="true">
+    <div class="journey__line"><div id="journeyFill" class="journey__fill"></div></div>
+    <div class="journey__prints">• • • • • • • • • • • • • • • • • • •</div>
+  </div>
+
+  <div id="horseRunner" class="horse-runner" aria-hidden="true">
+    <img src="assets/horse-rider-cartoon.jpg" alt="" />
+  </div>
+
+  <nav class="controls" aria-label="Presentation controls">
+    <button id="prevBtn" class="control-btn" type="button" aria-label="Previous slide">←</button>
+    <div class="counter" aria-live="polite"><span id="currentSlide">01</span><span>/</span><span id="totalSlides">19</span></div>
+    <button id="nextBtn" class="control-btn" type="button" aria-label="Next slide">→</button>
+    <button id="fullBtn" class="control-btn control-btn--small" type="button" aria-label="Enter fullscreen" title="Fullscreen">⛶</button>
+  </nav>
+
+  <div class="key-hint" aria-hidden="true">← → / space to move</div>
+
+  <noscript>
+    <div class="noscript">This presentation uses a small amount of JavaScript for slide navigation. Please enable JavaScript.</div>
+  </noscript>
+
+  <script src="script.js"></script>
+</body>
+</html>

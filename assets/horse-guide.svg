@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 150" role="img" aria-labelledby="title desc">
+  <title id="title">Elegant line-art horse</title>
+  <desc id="desc">A simple side-profile horse drawn with flowing lines.</desc>
+  <g fill="none" stroke="#5a4331" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 86 C48 70 70 61 96 61 C110 49 124 37 140 31 C151 27 166 32 174 42 C183 43 194 45 206 49 C216 52 221 59 217 66 C212 75 198 77 184 73 C178 84 174 97 174 112"/>
+    <path d="M96 61 C106 69 114 79 118 91 C121 101 120 111 116 121"/>
+    <path d="M74 66 C67 80 64 94 64 111"/>
+    <path d="M147 54 C140 69 138 87 141 111"/>
+    <path d="M174 72 C181 84 188 95 196 105"/>
+    <path d="M64 111 L55 130"/>
+    <path d="M116 121 L111 134"/>
+    <path d="M141 111 L145 133"/>
+    <path d="M196 105 L204 129"/>
+    <path d="M38 85 C25 82 18 75 13 67 C19 84 17 97 9 108"/>
+    <path d="M141 31 C150 19 166 16 178 22 C169 24 161 28 155 34"/>
+    <path d="M174 42 C169 51 167 59 168 67"/>
+  </g>
+  <circle cx="204" cy="58" r="3.2" fill="#5a4331"/>
+</svg>
